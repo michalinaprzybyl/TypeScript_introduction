@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "target": "ES2015", // opcje kompitatora
+        "rootDir": "./src", // root Directory - folder źródłowy; kompilator będzie wiedział, że w folderze src mam kod TS, weźmie go, przekompiluje do zwykłego JS'a i go wypluje 
+        "outDir": "./dist", // tu będzie wypluwać to co przekompiluje, dist to skrót od distribution
+        // "strict": true
+    }
+}
